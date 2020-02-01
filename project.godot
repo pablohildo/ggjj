@@ -8,9 +8,14 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "NinePatchRect",
+"class": "DialogueBox",
+"language": "GDScript",
+"path": "res://addons/adbox/DialogueBox.gd"
+} ]
 _global_script_class_icons={
-
+"DialogueBox": "res://addons/adbox/icon.png"
 }
 
 [application]
